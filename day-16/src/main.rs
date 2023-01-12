@@ -1,5 +1,5 @@
 use std::{
-    collections::{hash_map::Entry, HashMap, HashSet},
+    collections::{hash_map::Entry, HashMap},
     env, fs,
     num::NonZeroUsize,
 };
@@ -146,6 +146,7 @@ impl ValveIds {
 }
 
 struct Seen {
+    #[allow(clippy::type_complexity)]
     cache: LruCache<(Vec<u32>, Vec<u32>), Vec<Option<u32>>>,
 }
 impl Seen {
