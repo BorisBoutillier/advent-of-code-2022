@@ -79,7 +79,7 @@ impl World {
             cache: LruCache::new(NonZeroUsize::new(5_000_000).unwrap()),
         }
     }
-    fn print(&self) {
+    fn _print(&self) {
         for row in self.state.iter().rev() {
             println!(
                 "|{}|",
