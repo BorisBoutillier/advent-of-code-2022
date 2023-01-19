@@ -16,7 +16,7 @@ cargo run --release --bin day-XX day-XX/FILE  [1|2]
 - [1|2] is for part 1 or part 2. Usually all days code have both part still available in the code, but not the first few days.
 
 
-Note: `--release` is almost compulsory for day-16
+Note: `--release` is almost compulsory for day-16, day-19
 
 # A Question on a solution/code ?
 -> File an issue
